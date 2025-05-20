@@ -1,0 +1,51 @@
+
+body {
+    font-family: fantasy, sans-serif;
+    background: #b80f0fdb;
+    color: #ece3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(download\ 1.jpeg);
+    background-size: cover;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  #timer {
+    font-size: 80px;
+    margin: 20px 0;
+  }
+  
+  .buttons button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: fantasy;
+  }
+  
+  #start {
+    background-color: #020203;
+    color: rgb(241, 23, 23);
+  }
+  
+  #pause {
+    background-color: #040402;
+    color: rgb(242, 44, 44);
+  }
+  
+  #reset {
+    background-color: #000000;
+    color: rgb(225, 17, 17);
+  }
+  
